@@ -1,0 +1,440 @@
+.wraper{
+    font-family: frank-new, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: ivory;
+}
+        /* header */
+.header{
+    padding-top: 63px;
+}
+.header_inner{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 62px;
+    justify-content: space-between;
+}
+.logo{
+    color: #000;
+    padding-bottom: 7px;
+}
+.header_nav{
+    font-family: frank-new, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #000;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    padding-left: 25px;
+}
+.block-menu{
+    display: none;
+}
+nav a{
+    font-size: 22px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+}
+.menu::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 0px;
+}
+        /* start_box */
+.start_box{
+    margin-top: 6%;
+    padding-top: 200px;
+    padding-bottom: 105px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 10%;
+    height: auto;
+    width: 100%; 
+    position: absolute;
+    top: -45px;
+}
+.text h1{
+    font-family: frank-new, Arial, sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.text p{
+    font-family: frank-new, Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1.4;
+    color: rgb(92, 92, 92);
+    padding-top: 8px;
+}
+.Image{
+    width: 100%;
+    position: relative;
+}
+.Image img{
+    width: 100%;
+}
+        /* Sections */
+.section-text{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_section{
+    text-align: center;
+    max-width: 830px;
+}
+.text_section p{
+    font-size: 48px;
+    line-height: 1.35;
+}       
+.section-half-pane{
+    padding: 80px 0;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+}
+.media{
+    background-image: url(/Project_2/Img/media-1.jpg);
+    width: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60%;
+}
+.content{
+    padding: 0 110px 0 75px;
+    width: 50%;
+    height: auto;
+}
+h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: frank-new, Arial, sans-serif;
+}
+.content p{
+    display: block;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgb(92, 92, 92);
+    font-size: 24px;
+}
+.media-picture{
+    background-image: url(/Project_2/Img/image-2.jpg);
+}
+.media-picture2{
+    background-image: url(/Project_2/Img/media-3.jpg);
+}
+.media-picture3{
+    background-image: url(/Project_2/Img/media-4.jpg);
+}
+p + p {
+    margin-top: 35px;
+}
+.section-images{
+    display: block;
+    padding-top: 55px;
+}
+.images-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-image, .block-image4{
+    width: 64%;
+}
+.block-image2, .block-image3{
+    width: 36%;
+}
+.block-image div{
+    background-image: url(/Project_2/Img/image-1.jpg);
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 695px;
+}
+.block-image2 div{
+    background-image: url(/Project_2/Img/image-2.jpg);
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 695px;
+}
+.block-image4 div{
+    background-image: url(/Project_2/Img/image-3.jpg);
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 695px;
+}
+.block-image3 div{
+    background-image: url(/Project_2/Img/image-4.jpg);
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 695px;
+}
+    /* footer */
+footer{
+    background: #000;
+}
+.footer-bg{
+    background:#000;
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    max-width: 1280px;
+    margin: auto;
+}
+footer p{
+    font-family: frank-new, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.shell{
+    background: #000;
+    color: #fff;
+    padding: 150px 110px;
+}
+.footer_title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.footer_cols{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.footer_col{
+    width: 50%;
+}
+.footer_col:nth-child(1){
+    padding-right: 60px;
+}
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
+.map{
+    font-size: 21px;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer_contact{
+    margin: 140px 0;
+}
+
+ /* responsive style */
+/* ტაბლეტის მოდია 1024px */
+@media (max-width :1040px){
+    .header_inner{
+        padding: 0 30px;
+    }
+    .header {
+        padding-top: 40px;
+    }
+    .text{
+    flex-direction:column-reverse;
+    }
+    .content{
+        padding: 0 40px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .text_section p {
+        font-size: 38px;
+    }
+    .text h1{
+        font-size: 120px;
+    }
+    .text p{
+        margin-bottom: 20px;
+    }
+    .footer_col{
+        margin-top: 50px;
+        padding: 0;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    p+p{
+        margin-top: 30px;
+    }
+    
+}
+/* მცირე ტაბლეტის მოდია 768px */
+@media (max-width :768px){
+    .flex{
+        /* გავაქრობთ, არ გამოჩნდება */
+        display: none;
+    }
+    .block-menu{
+        display: block;
+        position: relative;
+        top: -15px;
+        background: transparent;
+        width: 25px;
+        height: 18px;
+        border: 0;
+        z-index: 20;
+        cursor: pointer;
+        text-transform: none;
+    }
+    .block-menu span{
+        position: absolute;
+        display: block;
+        width: 25px;
+        height: 3px;
+        font-size: 0;
+        background: #000;
+    }
+    .block-menu span:nth-child(1){
+        top: 0;
+    }
+    .block-menu span:nth-child(2){
+        top: calc(50% - 1px);
+    }
+    .block-menu span:nth-child(3){
+        top: calc(100% - 2px);
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .section-half-pane{
+        padding: 40px 0;
+    }
+    .section-half-pane + .section-half-pane {
+        padding-top: 0;
+    }
+    .media{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        padding: 0px 25px 20px;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    p+p{
+        margin-top: 25px;
+    }
+    .section-images{
+        display: none;
+    }
+    .section-text{
+        padding: 0 25px;
+    }
+    .section-text p{
+        font-size: 24px;
+        text-align: left;
+    }
+    .footer-bg{
+        padding: 60px 30px;
+    }
+    .shell{
+        padding: 0;
+    }
+    .start_box{
+        padding-bottom: 45px;
+        padding-top: 95px;
+    }
+    .text p{
+        font-size: 18px;
+    }
+    .text h1{
+        font-size: 70px;
+    }
+    .footer_contact{
+        margin: 0;
+        margin-top: 70px;
+    }
+    .footer_cols{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+    .footer_col{
+        width: 100%;
+    }
+    .map{
+        font-size: 12px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    .text{
+        padding: 30px 25px;
+    }
+
+}
+/* სმარტფონის მოდია 480px */
+@media (max-width :480px){
+    .text_section p {
+        font-size: 24px;
+    }
+    .section-text{
+        padding: 0 25px;
+    }
+    .text h1{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    .text p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
